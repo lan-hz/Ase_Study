@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5b14880fd73004f4b90e6e5b1193912a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Normal: {fileID: 2800000, guid: acb4244d77de06449b9189d5dc6aae62, type: 3}
+  - _Albedo: {fileID: 2800000, guid: d3dcb403dab0eac43adf72a8001079ca, type: 3}
+  - _Emissive: {fileID: 2800000, guid: 42e45d2e86da0254db16a72e119829b0, type: 3}
+  - _FigureTex: {fileID: 2800000, guid: 9800e22a7c5bf554d9bc308fb15c66f7, type: 3}
+  - _NoiseTex: {fileID: 2800000, guid: a162a71e9c580594a9708d2c26fd049b, type: 3}
+  - _Metallic: {fileID: 2800000, guid: 73c2a93e42ef37c4d8c9e479490e6d59, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

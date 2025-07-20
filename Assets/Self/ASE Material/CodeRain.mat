@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CodeRain
+  m_Shader: {fileID: 4800000, guid: 31dfc4962c308dd40a19206a4097e08e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f3415fa2a0af97846b553af06dd9a778, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainTex:
+        m_Texture: {fileID: 2800000, guid: 6874bd2bb88db76488aa009cebc049d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _LerpIn: 0
+    - _NoiseSpeed: 7
+    - _Smooth: 0.6149289
+    - _X: 20
+    - _Y: 20
+    - _pX: 20
+    m_Colors:
+    - _MainColor: {r: 0.2196078, g: 2, b: 1.121569, a: 1}
+    - _SmoothColor: {r: 1.498039, g: 1.498039, b: 1.498039, a: 1}
+  m_BuildTextureStacks: []

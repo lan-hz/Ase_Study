@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: cddcc4e286d4c0a488b02518483e5976
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MianTex: {fileID: 2800000, guid: 91953d1276b7f7e4c95b0765f541f56e, type: 3}
+  - _FlowTex: {fileID: 2800000, guid: 474cc9046408b9e4e96148ebf53c4153, type: 3}
+  - _SoftDissoluTex: {fileID: 2800000, guid: 5fca56f74c768414e8f562cb58300c7d, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkyBox
+  m_Shader: {fileID: 4800000, guid: 1c6505f8b86930141bb80593da309c1e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 8900000, guid: c99cd19010a78fd449116df81ec984a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 65ce0a01826652d4484cfec93dc0149a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarTex:
+        m_Texture: {fileID: 8900000, guid: 5de337c22829f84479afc27b934b6d34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float1: 1
+    - _NoiseIntensidy: 0.58
+    - _Xspeed: 2.57
+    - _Yspeed: 0
+    m_Colors:
+    - _MainColor: {r: 2.1185474, g: 2.1185474, b: 2.1185474, a: 1}
+    - _NoiseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StarColor: {r: 2, g: 1.9762228, b: 1.764151, a: 1}

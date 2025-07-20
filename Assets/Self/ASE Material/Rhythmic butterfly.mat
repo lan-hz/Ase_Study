@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rhythmic butterfly
+  m_Shader: {fileID: 4800000, guid: 7bc99eec67478d54da8c5cb670aae39e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 6625434acd77a4747bf3c874e3e66eac, type: 3}
+        m_Scale: {x: -1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: ab8ad871eb73da44ca3d915ca625c6a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -0.01, y: 0}
+    - _Ranner:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _offsetTex:
+        m_Texture: {fileID: 2800000, guid: 381fcd7b3c81eba46b87036060a47b6f, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Timer: 1
+    - _qd: -0.4
+    m_Colors:
+    - _MainColor: {r: 0.41568628, g: 1.4980392, b: 1.309804, a: 0.6431373}
+  m_BuildTextureStacks: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpringWire
+  m_Shader: {fileID: 4800000, guid: 8ee93969e4ed2c943b4ecaec7d1d9939, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d4e7b5056cb05f444ba54d254c4762da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: f3415fa2a0af97846b553af06dd9a778, type: 3}
+        m_Scale: {x: 4.52, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _xSpeed: 1.4
+    - _ySpeed: 1.53
+    m_Colors:
+    - _MainColor: {r: 0.7792809, g: 0.8301887, b: 0.828856, a: 0}
+  m_BuildTextureStacks: []

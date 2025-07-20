@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Until
+  m_Shader: {fileID: 4800000, guid: 6a1b87dbbe4389147b1ce660302672fd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PosTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Dst: 5
+    - _FrePow: 10
+    - _FreSca: 0.45
+    - _Keyword0: 0
+    - _PosIntensidy: -0.029
+    - _RefIntensidy: 0.957
+    - _Shininess: 0.911
+    - _SoftPow: 0
+    - _SoftTrigger: 0
+    - _Src: 7
+    m_Colors:
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _FreColor: {r: 0, g: 15.085716, b: 16, a: 0}
+    - _MainColor: {r: 0.29496258, g: 0.63077974, b: 0.6886792, a: 0}
+    - _MianColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 0.33328584, g: 0.5849056, b: 0.51660883, a: 0}
+  m_BuildTextureStacks: []

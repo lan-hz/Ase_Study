@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CardDissolve
+  m_Shader: {fileID: 4800000, guid: 45e1d6a79cf45bc4187776f61270296c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTex:
+        m_Texture: {fileID: 2800000, guid: d4e7b5056cb05f444ba54d254c4762da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Edge:
+        m_Texture: {fileID: 2800000, guid: 7667172725248394185b05e1841e76aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightBeam:
+        m_Texture: {fileID: 2800000, guid: 9141fe797bacf4646b1d8e6c04826407, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b284b38597fdea541ac991e0aa0ef66d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 1882f3078d58f5a4c95d66011316fe6f, type: 3}
+        m_Scale: {x: 6, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 2800000, guid: 0e572ede670fd4f4a979100a27fd73fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DissovleIns: 0.617
+    - _EdgeIns: 1
+    - _NoiseIns: 0.205
+    - _s_x: 0
+    - _s_y: 1
+    m_Colors:
+    - _EdgeColor: {r: 0.27394092, g: 0.71259654, b: 0.7169812, a: 0}
+    - _LightColor: {r: 0, g: 2.9176471, b: 2.9960785, a: 0}
+    - _NoiseColor: {r: 2, g: 1.1529412, b: 0.8392157, a: 0}
+  m_BuildTextureStacks: []
