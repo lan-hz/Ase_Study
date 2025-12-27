@@ -5,5 +5,7 @@ ProjectSettings
 UserSettings
 Temp
 *.sln
+*.slnx
+*.vsconfig
 *.csproj
 obj
