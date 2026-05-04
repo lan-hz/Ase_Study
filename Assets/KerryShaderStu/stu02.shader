@@ -1,15 +1,17 @@
-Shader "Unlit/stu01"
+Shader "Unlit/stu02"
 {
     Properties
     {
         _MainTex("_MainTex", 2D) = "write"{ }
         _Color("_Color", Color) = (1, 1, 1, 1)
+        [Enum(UnityEngine.Rendering.CullMode)]_CullMode("_CullMode", float) = 2
     }
     SubShader
     {
 
         Pass
         {
+            Cull [_CullMode]    // 剔除
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
